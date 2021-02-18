@@ -1,0 +1,6 @@
+<app-header></app-header>
+<app-gif-card
+  *ngFor="let favorite of favorites"
+  [gifRef]="favorite"
+  [favoritesRef]="favorites"
+></app-gif-card>
